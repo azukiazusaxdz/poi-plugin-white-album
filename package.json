@@ -1,0 +1,39 @@
+{
+  "name": "poi-plugin-white-album",
+  "version": "0.1.4",
+  "main": "index.es",
+  "description": "飞机熟练度计数器【你为什么这么熟练？你到底刷过多少次啊！】",
+  "author": {
+    "name": "小豆梓Azuki",
+    "url": "https://github.com/azukiazusaxdz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azukiazusaxdz/poi-plugin-white-album.git"
+  },
+  "homepage": "https://github.com/azukiazusaxdz/poi-plugin-white-album",
+  "bugs": {
+    "url": "https://github.com/azukiazusaxdz/poi-plugin-white-album/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "poi",
+    "kancolle",
+    "poi-plugin",
+    "aircraft",
+    "proficiency"
+  ],
+  "files": [
+    "index.es",
+    "views",
+    "lib",
+    "assets",
+    "README.md"
+  ],
+  "poiPlugin": {
+    "title": "熟练度计数",
+    "description": "飞机熟练度计数器【你为什么这么熟练？你到底刷过多少次啊！】",
+    "icon": "fa/snowflake",
+    "priority": 56
+  }
+}
