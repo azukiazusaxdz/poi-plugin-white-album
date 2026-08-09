@@ -1,5 +1,7 @@
-// Derived from wikiwiki 艦載機熟練度 growth brackets (upper bound).
-// Unknown aircraft default to 100 in getGrowthTarget().
+// Growth targets (battles to >> / internal ~100).
+// Primary: wikiwiki 艦載機熟練度 brackets (upper bound).
+// Filled gaps via noro6 kc-web master.json grow (2->100 ... 9->20).
+// Unknown remain default 100 and show ??/?? via isKnownGrowth().
 
 export const DEFAULT_TARGET = 100
 
@@ -156,7 +158,6 @@ export const GROWTH_TARGET = {
   339: 100, // 烈風改二戊型(一航戦/熟練)
   342: 47, // 流星改(一航戦)
   343: 75, // 流星改(一航戦/熟練)
-  570: 75, // 流星改(友永隊) — 暂按 流星改(一航戦/熟練) 同档
   344: 40, // 九七式艦攻改 試製三号戊型(空六号電探改装備機)
   345: 47, // 九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機)
   350: 75, // Me163B
@@ -234,6 +235,33 @@ export const GROWTH_TARGET = {
   510: 23, // Walrus
   515: 28, // Sea Otter
   516: 100, // Me 262 A-1a/R1
+  521: 31, // 紫雲(熟練) (noro6 grow)
+  522: 28, // 零式小型水上機 (noro6 grow)
+  523: 28, // 零式小型水上機(熟練) (noro6 grow)
+  538: 31, // Loire 130M改(熟練) (noro6 grow)
+  539: 28, // SOC Seagull 後期型(熟練) (noro6 grow)
+  540: 28, // 零式水上偵察機11型甲改二 (noro6 grow)
+  541: 28, // SBD(Yellow Wings) (noro6 grow)
+  542: 28, // TBD(Yellow Wings) (noro6 grow)
+  543: 31, // SBD VS-2(偵察飛行隊) (noro6 grow)
+  544: 31, // SBD VB-2(爆撃飛行隊) (noro6 grow)
+  545: 47, // 天山一二型甲改二(村田隊/電探装備) (noro6 grow)
+  546: 40, // 試製 震電(局地戦闘機) (noro6 grow)
+  547: 40, // 震電改二(艦戦型改二) (noro6 grow)
+  549: 40, // 三式指揮連絡機改二 (noro6 grow)
+  550: 28, // 試製 明星(増加試作機) (noro6 grow)
+  551: 31, // 明星改 (noro6 grow)
+  552: 40, // 九九式練爆二二型改(夜間装備実験機) (noro6 grow)
+  554: 28, // 九七式艦攻改(北東海軍航空隊) (noro6 grow)
+  557: 31, // 零式艦戦62型改(夜間爆戦) (noro6 grow)
+  558: 40, // 零式艦戦62型改(熟練/夜間爆戦) (noro6 grow)
+  559: 31, // Ju87 D-4(Fliegerass) (noro6 grow)
+  560: 28, // Bf109 T-3(G) (noro6 grow)
+  561: 75, // Ho229 (noro6 grow)
+  562: 40, // Do 217 E-5+TV誘導型 Hs293D (noro6 grow)
+  567: 23, // Sea Gladiator (noro6 grow)
+  568: 40, // 強風改二(熟練) (noro6 grow)
+  570: 75, // 流星改(友永隊)
 }
 
 export const getGrowthTarget = (masterId) => {

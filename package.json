@@ -1,6 +1,6 @@
 {
   "name": "poi-plugin-white-album",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "index.es",
   "description": "飞机熟练度计数器【你为什么这么熟练？你到底刷过多少次啊！】",
   "author": {
